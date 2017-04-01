@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		634FD67B1E8E9A0000F98416 /* SFParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 634FD67A1E8E9A0000F98416 /* SFParser.m */; };
+		636819101E8EAB7C00474717 /* SFResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6368190F1E8EAB7C00474717 /* SFResponse.m */; };
+		637BE8901E8B620200FF2CCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE88F1E8B620200FF2CCC /* main.m */; };
+		637BE8931E8B620200FF2CCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8921E8B620200FF2CCC /* AppDelegate.m */; };
+		637BE8961E8B620200FF2CCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8951E8B620200FF2CCC /* ViewController.m */; };
+		637BE8991E8B620200FF2CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637BE8971E8B620200FF2CCC /* Main.storyboard */; };
+		637BE89B1E8B620200FF2CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637BE89A1E8B620200FF2CCC /* Assets.xcassets */; };
+		637BE89E1E8B620200FF2CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637BE89C1E8B620200FF2CCC /* LaunchScreen.storyboard */; };
+		637BE8A91E8B620200FF2CCC /* Smart_ParkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8A81E8B620200FF2CCC /* Smart_ParkingTests.m */; };
+		637BE8B41E8B620200FF2CCC /* Smart_ParkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8B31E8B620200FF2CCC /* Smart_ParkingUITests.m */; };
+		637BE8C81E8B6A7400FF2CCC /* SFLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8C71E8B6A7400FF2CCC /* SFLoginViewController.m */; };
+		637BE8CB1E8B6A9E00FF2CCC /* SFRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8CA1E8B6A9E00FF2CCC /* SFRegisterViewController.m */; };
+		637BE8CE1E8B6ABE00FF2CCC /* SFForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8CD1E8B6ABE00FF2CCC /* SFForgotPasswordViewController.m */; };
+		637BE8D11E8B6AD200FF2CCC /* SFAddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8D01E8B6AD200FF2CCC /* SFAddCardViewController.m */; };
+		637BE8D41E8B6AE600FF2CCC /* SFMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8D31E8B6AE600FF2CCC /* SFMenuViewController.m */; };
+		637BE8D71E8B6AF700FF2CCC /* SFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8D61E8B6AF700FF2CCC /* SFHomeViewController.m */; };
+		637BE8DA1E8B6B1600FF2CCC /* SFPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8D91E8B6B1600FF2CCC /* SFPaymentViewController.m */; };
+		637BE8DD1E8B6B2700FF2CCC /* SFParkingMeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8DC1E8B6B2700FF2CCC /* SFParkingMeterViewController.m */; };
+		637BE8E01E8B6B3D00FF2CCC /* SFHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8DF1E8B6B3D00FF2CCC /* SFHistoryViewController.m */; };
+		637BE8E31E8B6B4B00FF2CCC /* SFAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8E21E8B6B4B00FF2CCC /* SFAboutViewController.m */; };
+		637BE8E61E8B6B8900FF2CCC /* SFLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8E51E8B6B8900FF2CCC /* SFLogin.m */; };
+		637BE8E91E8B6B9C00FF2CCC /* SFRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8E81E8B6B9C00FF2CCC /* SFRegister.m */; };
+		637BE8F21E8BD36C00FF2CCC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE8F11E8BD36C00FF2CCC /* SWRevealViewController.m */; };
+		639470681E8EBD5F00397C96 /* analytics.png in Resources */ = {isa = PBXBuildFile; fileRef = 639470601E8EBD5F00397C96 /* analytics.png */; };
+		639470691E8EBD5F00397C96 /* car-parking.psd in Resources */ = {isa = PBXBuildFile; fileRef = 639470611E8EBD5F00397C96 /* car-parking.psd */; };
+		6394706A1E8EBD5F00397C96 /* credit-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 639470621E8EBD5F00397C96 /* credit-card.png */; };
+		6394706B1E8EBD5F00397C96 /* garage.png in Resources */ = {isa = PBXBuildFile; fileRef = 639470631E8EBD5F00397C96 /* garage.png */; };
+		6394706C1E8EBD5F00397C96 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = 639470641E8EBD5F00397C96 /* history.png */; };
+		6394706D1E8EBD5F00397C96 /* house.psd in Resources */ = {isa = PBXBuildFile; fileRef = 639470651E8EBD5F00397C96 /* house.psd */; };
+		6394706E1E8EBD5F00397C96 /* shut-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 639470661E8EBD5F00397C96 /* shut-down.png */; };
+		6394706F1E8EBD5F00397C96 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 639470671E8EBD5F00397C96 /* user.png */; };
+		639470711E8EBDA800397C96 /* AppIcon72x72%402x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 639470701E8EBDA800397C96 /* AppIcon72x72%402x copy.png */; };
+		63D2E6FA1E8FB175008E6580 /* SFAvaliableSlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2E6F91E8FB175008E6580 /* SFAvaliableSlot.m */; };
+		63D9CD381E8C2658006F7E5E /* SFForgotPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD371E8C2658006F7E5E /* SFForgotPassword.m */; };
+		63D9CD3B1E8C266C006F7E5E /* SFCardDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD3A1E8C266C006F7E5E /* SFCardDetail.m */; };
+		63D9CD3E1E8C267D006F7E5E /* SFQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD3D1E8C267D006F7E5E /* SFQRCode.m */; };
+		63D9CD411E8C268B006F7E5E /* SFParkingMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD401E8C268B006F7E5E /* SFParkingMeter.m */; };
+		63D9CD441E8C2699006F7E5E /* SFHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD431E8C2699006F7E5E /* SFHistory.m */; };
+		63D9CD481E8C2942006F7E5E /* SFWebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD471E8C2942006F7E5E /* SFWebServiceManager.m */; };
+		63D9CD4B1E8C29C3006F7E5E /* SFError.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD4A1E8C29C3006F7E5E /* SFError.m */; };
+		63D9CD521E8C2C0F006F7E5E /* SFSuccessResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD511E8C2C0F006F7E5E /* SFSuccessResponse.m */; };
+		63D9CD561E8C32AB006F7E5E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD551E8C32AB006F7E5E /* Reachability.m */; };
+		63D9CD591E8CC658006F7E5E /* Bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D9CD581E8CC658006F7E5E /* Bg.png */; };
+		63D9CD601E8D2F7A006F7E5E /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D9CD5E1E8D2F7A006F7E5E /* menu.png */; };
+		63D9CD611E8D2F7A006F7E5E /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D9CD5F1E8D2F7A006F7E5E /* menu@2x.png */; };
+		63D9CD641E8D3076006F7E5E /* SFMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD631E8D3076006F7E5E /* SFMenuTableViewCell.m */; };
+		63D9CD671E8D36F2006F7E5E /* SFHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD661E8D36F2006F7E5E /* SFHistoryTableViewCell.m */; };
+		63D9CD6B1E8D3C1E006F7E5E /* SFActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9CD6A1E8D3C1E006F7E5E /* SFActivityIndicator.m */; };
+		63E40D341E8EC266008F0FED /* Help-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D331E8EC266008F0FED /* Help-50 (1).png */; };
+		63E40D361E8ECD7D008F0FED /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E40D351E8ECD7D008F0FED /* MessageUI.framework */; };
+		63E40D431E8EE610008F0FED /* Available slots.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D371E8EE610008F0FED /* Available slots.png */; };
+		63E40D441E8EE610008F0FED /* Available slots@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D381E8EE610008F0FED /* Available slots@2x.png */; };
+		63E40D451E8EE610008F0FED /* Avaliable balence.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D391E8EE610008F0FED /* Avaliable balence.png */; };
+		63E40D461E8EE610008F0FED /* Avaliable balence@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D3A1E8EE610008F0FED /* Avaliable balence@2x.png */; };
+		63E40D471E8EE610008F0FED /* Loyality points.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D3B1E8EE610008F0FED /* Loyality points.png */; };
+		63E40D481E8EE610008F0FED /* Loyality points@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D3C1E8EE610008F0FED /* Loyality points@2x.png */; };
+		63E40D491E8EE610008F0FED /* QR Code.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D3D1E8EE610008F0FED /* QR Code.png */; };
+		63E40D4A1E8EE610008F0FED /* QR Code@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D3E1E8EE610008F0FED /* QR Code@2x.png */; };
+		63E40D4B1E8EE610008F0FED /* Recharge.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D3F1E8EE610008F0FED /* Recharge.png */; };
+		63E40D4C1E8EE610008F0FED /* Recharge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D401E8EE610008F0FED /* Recharge@2x.png */; };
+		63E40D4D1E8EE610008F0FED /* Wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D411E8EE610008F0FED /* Wallet.png */; };
+		63E40D4E1E8EE610008F0FED /* Wallet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D421E8EE610008F0FED /* Wallet@2x.png */; };
+		63E40D511E8F011B008F0FED /* No Parking.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D4F1E8F011B008F0FED /* No Parking.png */; };
+		63E40D521E8F011B008F0FED /* No Parking@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D501E8F011B008F0FED /* No Parking@2x.png */; };
+		63E40D551E8F01B0008F0FED /* Parked.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D531E8F01B0008F0FED /* Parked.png */; };
+		63E40D561E8F01B0008F0FED /* Parked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D541E8F01B0008F0FED /* Parked@2x.png */; };
+		63E40D5A1E8F05FF008F0FED /* SFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E40D591E8F05FF008F0FED /* SFCache.m */; };
+		63E40D671E8F266B008F0FED /* PayUmoney_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E40D661E8F266B008F0FED /* PayUmoney_SDK.framework */; };
+		63E40D681E8F266B008F0FED /* PayUmoney_SDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63E40D661E8F266B008F0FED /* PayUmoney_SDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63E40D6B1E8F5A4B008F0FED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E40D6A1E8F5A4B008F0FED /* Images.xcassets */; };
+		963D2A2A64E12FE62298E55D /* libPods-Smart Parking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E564C15434DE880A7EAA35 /* libPods-Smart Parking.a */; };
+		AFA727A4399EDAA8B284284B /* libPods-Smart ParkingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 978CEB2C82E706316B116084 /* libPods-Smart ParkingUITests.a */; };
+		EFD7D6D600E1BAC6AB239AD9 /* libPods-Smart ParkingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C474ED51ED55D3DED962B02D /* libPods-Smart ParkingTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637BE8A51E8B620200FF2CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637BE8831E8B620200FF2CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637BE88A1E8B620200FF2CCC;
+			remoteInfo = "Smart Parking";
+		};
+		637BE8B01E8B620200FF2CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637BE8831E8B620200FF2CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637BE88A1E8B620200FF2CCC;
+			remoteInfo = "Smart Parking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63E40D691E8F266B008F0FED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63E40D681E8F266B008F0FED /* PayUmoney_SDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19CCEC1A70AE8BF1892BCB5D /* Pods-Smart Parking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Parking.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smart Parking/Pods-Smart Parking.release.xcconfig"; sourceTree = "<group>"; };
+		26E564C15434DE880A7EAA35 /* libPods-Smart Parking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Smart Parking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		634FD6791E8E9A0000F98416 /* SFParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFParser.h; sourceTree = "<group>"; };
+		634FD67A1E8E9A0000F98416 /* SFParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFParser.m; sourceTree = "<group>"; };
+		6368190E1E8EAB7C00474717 /* SFResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFResponse.h; sourceTree = "<group>"; };
+		6368190F1E8EAB7C00474717 /* SFResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFResponse.m; sourceTree = "<group>"; };
+		637BE88B1E8B620200FF2CCC /* Smart Parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Parking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		637BE88F1E8B620200FF2CCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		637BE8911E8B620200FF2CCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		637BE8921E8B620200FF2CCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		637BE8941E8B620200FF2CCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		637BE8951E8B620200FF2CCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		637BE8981E8B620200FF2CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		637BE89A1E8B620200FF2CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		637BE89D1E8B620200FF2CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		637BE89F1E8B620200FF2CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637BE8A41E8B620200FF2CCC /* Smart ParkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart ParkingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		637BE8A81E8B620200FF2CCC /* Smart_ParkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smart_ParkingTests.m; sourceTree = "<group>"; };
+		637BE8AA1E8B620200FF2CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637BE8AF1E8B620200FF2CCC /* Smart ParkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart ParkingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		637BE8B31E8B620200FF2CCC /* Smart_ParkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smart_ParkingUITests.m; sourceTree = "<group>"; };
+		637BE8B51E8B620200FF2CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637BE8C61E8B6A7400FF2CCC /* SFLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFLoginViewController.h; sourceTree = "<group>"; };
+		637BE8C71E8B6A7400FF2CCC /* SFLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLoginViewController.m; sourceTree = "<group>"; };
+		637BE8C91E8B6A9E00FF2CCC /* SFRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRegisterViewController.h; sourceTree = "<group>"; };
+		637BE8CA1E8B6A9E00FF2CCC /* SFRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRegisterViewController.m; sourceTree = "<group>"; };
+		637BE8CC1E8B6ABE00FF2CCC /* SFForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFForgotPasswordViewController.h; sourceTree = "<group>"; };
+		637BE8CD1E8B6ABE00FF2CCC /* SFForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFForgotPasswordViewController.m; sourceTree = "<group>"; };
+		637BE8CF1E8B6AD200FF2CCC /* SFAddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFAddCardViewController.h; sourceTree = "<group>"; };
+		637BE8D01E8B6AD200FF2CCC /* SFAddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFAddCardViewController.m; sourceTree = "<group>"; };
+		637BE8D21E8B6AE600FF2CCC /* SFMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMenuViewController.h; sourceTree = "<group>"; };
+		637BE8D31E8B6AE600FF2CCC /* SFMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMenuViewController.m; sourceTree = "<group>"; };
+		637BE8D51E8B6AF700FF2CCC /* SFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHomeViewController.h; sourceTree = "<group>"; };
+		637BE8D61E8B6AF700FF2CCC /* SFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHomeViewController.m; sourceTree = "<group>"; };
+		637BE8D81E8B6B1600FF2CCC /* SFPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPaymentViewController.h; sourceTree = "<group>"; };
+		637BE8D91E8B6B1600FF2CCC /* SFPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPaymentViewController.m; sourceTree = "<group>"; };
+		637BE8DB1E8B6B2700FF2CCC /* SFParkingMeterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFParkingMeterViewController.h; sourceTree = "<group>"; };
+		637BE8DC1E8B6B2700FF2CCC /* SFParkingMeterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFParkingMeterViewController.m; sourceTree = "<group>"; };
+		637BE8DE1E8B6B3D00FF2CCC /* SFHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHistoryViewController.h; sourceTree = "<group>"; };
+		637BE8DF1E8B6B3D00FF2CCC /* SFHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHistoryViewController.m; sourceTree = "<group>"; };
+		637BE8E11E8B6B4B00FF2CCC /* SFAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFAboutViewController.h; sourceTree = "<group>"; };
+		637BE8E21E8B6B4B00FF2CCC /* SFAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFAboutViewController.m; sourceTree = "<group>"; };
+		637BE8E41E8B6B8900FF2CCC /* SFLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFLogin.h; sourceTree = "<group>"; };
+		637BE8E51E8B6B8900FF2CCC /* SFLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLogin.m; sourceTree = "<group>"; };
+		637BE8E71E8B6B9C00FF2CCC /* SFRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRegister.h; sourceTree = "<group>"; };
+		637BE8E81E8B6B9C00FF2CCC /* SFRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRegister.m; sourceTree = "<group>"; };
+		637BE8F01E8BD36C00FF2CCC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		637BE8F11E8BD36C00FF2CCC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		639470601E8EBD5F00397C96 /* analytics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = analytics.png; sourceTree = "<group>"; };
+		639470611E8EBD5F00397C96 /* car-parking.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "car-parking.psd"; sourceTree = "<group>"; };
+		639470621E8EBD5F00397C96 /* credit-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "credit-card.png"; sourceTree = "<group>"; };
+		639470631E8EBD5F00397C96 /* garage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garage.png; sourceTree = "<group>"; };
+		639470641E8EBD5F00397C96 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		639470651E8EBD5F00397C96 /* house.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.psd; sourceTree = "<group>"; };
+		639470661E8EBD5F00397C96 /* shut-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shut-down.png"; sourceTree = "<group>"; };
+		639470671E8EBD5F00397C96 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		639470701E8EBDA800397C96 /* AppIcon72x72%402x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon72x72%402x copy.png"; sourceTree = "<group>"; };
+		63D2E6F81E8FB175008E6580 /* SFAvaliableSlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFAvaliableSlot.h; sourceTree = "<group>"; };
+		63D2E6F91E8FB175008E6580 /* SFAvaliableSlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFAvaliableSlot.m; sourceTree = "<group>"; };
+		63D9CD361E8C2658006F7E5E /* SFForgotPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFForgotPassword.h; sourceTree = "<group>"; };
+		63D9CD371E8C2658006F7E5E /* SFForgotPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFForgotPassword.m; sourceTree = "<group>"; };
+		63D9CD391E8C266C006F7E5E /* SFCardDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCardDetail.h; sourceTree = "<group>"; };
+		63D9CD3A1E8C266C006F7E5E /* SFCardDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCardDetail.m; sourceTree = "<group>"; };
+		63D9CD3C1E8C267D006F7E5E /* SFQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFQRCode.h; sourceTree = "<group>"; };
+		63D9CD3D1E8C267D006F7E5E /* SFQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFQRCode.m; sourceTree = "<group>"; };
+		63D9CD3F1E8C268B006F7E5E /* SFParkingMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFParkingMeter.h; sourceTree = "<group>"; };
+		63D9CD401E8C268B006F7E5E /* SFParkingMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFParkingMeter.m; sourceTree = "<group>"; };
+		63D9CD421E8C2699006F7E5E /* SFHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHistory.h; sourceTree = "<group>"; };
+		63D9CD431E8C2699006F7E5E /* SFHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHistory.m; sourceTree = "<group>"; };
+		63D9CD461E8C2942006F7E5E /* SFWebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWebServiceManager.h; sourceTree = "<group>"; };
+		63D9CD471E8C2942006F7E5E /* SFWebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWebServiceManager.m; sourceTree = "<group>"; };
+		63D9CD491E8C29C3006F7E5E /* SFError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFError.h; sourceTree = "<group>"; };
+		63D9CD4A1E8C29C3006F7E5E /* SFError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFError.m; sourceTree = "<group>"; };
+		63D9CD501E8C2C0F006F7E5E /* SFSuccessResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSuccessResponse.h; sourceTree = "<group>"; };
+		63D9CD511E8C2C0F006F7E5E /* SFSuccessResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSuccessResponse.m; sourceTree = "<group>"; };
+		63D9CD541E8C32AB006F7E5E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		63D9CD551E8C32AB006F7E5E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		63D9CD581E8CC658006F7E5E /* Bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bg.png; sourceTree = "<group>"; };
+		63D9CD5E1E8D2F7A006F7E5E /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		63D9CD5F1E8D2F7A006F7E5E /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		63D9CD621E8D3076006F7E5E /* SFMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMenuTableViewCell.h; sourceTree = "<group>"; };
+		63D9CD631E8D3076006F7E5E /* SFMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMenuTableViewCell.m; sourceTree = "<group>"; };
+		63D9CD651E8D36F2006F7E5E /* SFHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHistoryTableViewCell.h; sourceTree = "<group>"; };
+		63D9CD661E8D36F2006F7E5E /* SFHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHistoryTableViewCell.m; sourceTree = "<group>"; };
+		63D9CD691E8D3C1D006F7E5E /* SFActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFActivityIndicator.h; sourceTree = "<group>"; };
+		63D9CD6A1E8D3C1E006F7E5E /* SFActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFActivityIndicator.m; sourceTree = "<group>"; };
+		63E40D331E8EC266008F0FED /* Help-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help-50 (1).png"; sourceTree = "<group>"; };
+		63E40D351E8ECD7D008F0FED /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		63E40D371E8EE610008F0FED /* Available slots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Available slots.png"; sourceTree = "<group>"; };
+		63E40D381E8EE610008F0FED /* Available slots@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Available slots@2x.png"; sourceTree = "<group>"; };
+		63E40D391E8EE610008F0FED /* Avaliable balence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Avaliable balence.png"; sourceTree = "<group>"; };
+		63E40D3A1E8EE610008F0FED /* Avaliable balence@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Avaliable balence@2x.png"; sourceTree = "<group>"; };
+		63E40D3B1E8EE610008F0FED /* Loyality points.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Loyality points.png"; sourceTree = "<group>"; };
+		63E40D3C1E8EE610008F0FED /* Loyality points@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Loyality points@2x.png"; sourceTree = "<group>"; };
+		63E40D3D1E8EE610008F0FED /* QR Code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR Code.png"; sourceTree = "<group>"; };
+		63E40D3E1E8EE610008F0FED /* QR Code@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR Code@2x.png"; sourceTree = "<group>"; };
+		63E40D3F1E8EE610008F0FED /* Recharge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Recharge.png; sourceTree = "<group>"; };
+		63E40D401E8EE610008F0FED /* Recharge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Recharge@2x.png"; sourceTree = "<group>"; };
+		63E40D411E8EE610008F0FED /* Wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wallet.png; sourceTree = "<group>"; };
+		63E40D421E8EE610008F0FED /* Wallet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wallet@2x.png"; sourceTree = "<group>"; };
+		63E40D4F1E8F011B008F0FED /* No Parking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "No Parking.png"; sourceTree = "<group>"; };
+		63E40D501E8F011B008F0FED /* No Parking@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "No Parking@2x.png"; sourceTree = "<group>"; };
+		63E40D531E8F01B0008F0FED /* Parked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Parked.png; sourceTree = "<group>"; };
+		63E40D541E8F01B0008F0FED /* Parked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parked@2x.png"; sourceTree = "<group>"; };
+		63E40D581E8F05FF008F0FED /* SFCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCache.h; sourceTree = "<group>"; };
+		63E40D591E8F05FF008F0FED /* SFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCache.m; sourceTree = "<group>"; };
+		63E40D661E8F266B008F0FED /* PayUmoney_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayUmoney_SDK.framework; path = "Smart Parking/Third Party Frameworks/lib/PayUmoney_SDK.framework"; sourceTree = "<group>"; };
+		63E40D6A1E8F5A4B008F0FED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		706AA57077A4E29A2A2C8745 /* Pods-Smart Parking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Parking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smart Parking/Pods-Smart Parking.debug.xcconfig"; sourceTree = "<group>"; };
+		82B8094D3A012D8C60023158 /* Pods-Smart ParkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart ParkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smart ParkingTests/Pods-Smart ParkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		978CEB2C82E706316B116084 /* libPods-Smart ParkingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Smart ParkingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF86B12A8EE769889F84529A /* Pods-Smart ParkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart ParkingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smart ParkingUITests/Pods-Smart ParkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C474ED51ED55D3DED962B02D /* libPods-Smart ParkingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Smart ParkingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B7D304EB9D979CA3EF80EC /* Pods-Smart ParkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart ParkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smart ParkingTests/Pods-Smart ParkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5D1291D549BFE2FF398322 /* Pods-Smart ParkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart ParkingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smart ParkingUITests/Pods-Smart ParkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637BE8881E8B620200FF2CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E40D671E8F266B008F0FED /* PayUmoney_SDK.framework in Frameworks */,
+				63E40D361E8ECD7D008F0FED /* MessageUI.framework in Frameworks */,
+				963D2A2A64E12FE62298E55D /* libPods-Smart Parking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637BE8A11E8B620200FF2CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD7D6D600E1BAC6AB239AD9 /* libPods-Smart ParkingTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637BE8AC1E8B620200FF2CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA727A4399EDAA8B284284B /* libPods-Smart ParkingUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E009BFB3CD931FEC0D03172 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				706AA57077A4E29A2A2C8745 /* Pods-Smart Parking.debug.xcconfig */,
+				19CCEC1A70AE8BF1892BCB5D /* Pods-Smart Parking.release.xcconfig */,
+				C8B7D304EB9D979CA3EF80EC /* Pods-Smart ParkingTests.debug.xcconfig */,
+				82B8094D3A012D8C60023158 /* Pods-Smart ParkingTests.release.xcconfig */,
+				AF86B12A8EE769889F84529A /* Pods-Smart ParkingUITests.debug.xcconfig */,
+				CD5D1291D549BFE2FF398322 /* Pods-Smart ParkingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		634FD6781E8E99DD00F98416 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				634FD6791E8E9A0000F98416 /* SFParser.h */,
+				634FD67A1E8E9A0000F98416 /* SFParser.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		637BE8821E8B620200FF2CCC = {
+			isa = PBXGroup;
+			children = (
+				63E40D661E8F266B008F0FED /* PayUmoney_SDK.framework */,
+				637BE88D1E8B620200FF2CCC /* Smart Parking */,
+				637BE8A71E8B620200FF2CCC /* Smart ParkingTests */,
+				637BE8B21E8B620200FF2CCC /* Smart ParkingUITests */,
+				637BE88C1E8B620200FF2CCC /* Products */,
+				2E009BFB3CD931FEC0D03172 /* Pods */,
+				CD90510A19B573C250647E47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		637BE88C1E8B620200FF2CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637BE88B1E8B620200FF2CCC /* Smart Parking.app */,
+				637BE8A41E8B620200FF2CCC /* Smart ParkingTests.xctest */,
+				637BE8AF1E8B620200FF2CCC /* Smart ParkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637BE88D1E8B620200FF2CCC /* Smart Parking */ = {
+			isa = PBXGroup;
+			children = (
+				634FD6781E8E99DD00F98416 /* Parser */,
+				63D9CD571E8CC658006F7E5E /* Images */,
+				63D9CD451E8C2931006F7E5E /* Web Service Manager */,
+				637BE8EE1E8BD36C00FF2CCC /* Third Party Frameworks */,
+				637BE8C11E8B6A0A00FF2CCC /* App Delegate */,
+				637BE8C21E8B6A0A00FF2CCC /* Model */,
+				637BE8C31E8B6A0A00FF2CCC /* Utils */,
+				637BE8C41E8B6A0A00FF2CCC /* View */,
+				637BE8C51E8B6A0A00FF2CCC /* View Controller */,
+				637BE8911E8B620200FF2CCC /* AppDelegate.h */,
+				637BE8921E8B620200FF2CCC /* AppDelegate.m */,
+				637BE8941E8B620200FF2CCC /* ViewController.h */,
+				637BE8951E8B620200FF2CCC /* ViewController.m */,
+				637BE8971E8B620200FF2CCC /* Main.storyboard */,
+				637BE89A1E8B620200FF2CCC /* Assets.xcassets */,
+				637BE89C1E8B620200FF2CCC /* LaunchScreen.storyboard */,
+				637BE89F1E8B620200FF2CCC /* Info.plist */,
+				63E40D6A1E8F5A4B008F0FED /* Images.xcassets */,
+				637BE88E1E8B620200FF2CCC /* Supporting Files */,
+			);
+			path = "Smart Parking";
+			sourceTree = "<group>";
+		};
+		637BE88E1E8B620200FF2CCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				637BE88F1E8B620200FF2CCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		637BE8A71E8B620200FF2CCC /* Smart ParkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				637BE8A81E8B620200FF2CCC /* Smart_ParkingTests.m */,
+				637BE8AA1E8B620200FF2CCC /* Info.plist */,
+			);
+			path = "Smart ParkingTests";
+			sourceTree = "<group>";
+		};
+		637BE8B21E8B620200FF2CCC /* Smart ParkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				637BE8B31E8B620200FF2CCC /* Smart_ParkingUITests.m */,
+				637BE8B51E8B620200FF2CCC /* Info.plist */,
+			);
+			path = "Smart ParkingUITests";
+			sourceTree = "<group>";
+		};
+		637BE8C11E8B6A0A00FF2CCC /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		637BE8C21E8B6A0A00FF2CCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				637BE8E41E8B6B8900FF2CCC /* SFLogin.h */,
+				637BE8E51E8B6B8900FF2CCC /* SFLogin.m */,
+				637BE8E71E8B6B9C00FF2CCC /* SFRegister.h */,
+				637BE8E81E8B6B9C00FF2CCC /* SFRegister.m */,
+				63D9CD361E8C2658006F7E5E /* SFForgotPassword.h */,
+				63D9CD371E8C2658006F7E5E /* SFForgotPassword.m */,
+				63D9CD391E8C266C006F7E5E /* SFCardDetail.h */,
+				63D9CD3A1E8C266C006F7E5E /* SFCardDetail.m */,
+				63D9CD3C1E8C267D006F7E5E /* SFQRCode.h */,
+				63D9CD3D1E8C267D006F7E5E /* SFQRCode.m */,
+				63D9CD3F1E8C268B006F7E5E /* SFParkingMeter.h */,
+				63D9CD401E8C268B006F7E5E /* SFParkingMeter.m */,
+				63D9CD421E8C2699006F7E5E /* SFHistory.h */,
+				63D9CD431E8C2699006F7E5E /* SFHistory.m */,
+				63D9CD491E8C29C3006F7E5E /* SFError.h */,
+				63D9CD4A1E8C29C3006F7E5E /* SFError.m */,
+				63D9CD501E8C2C0F006F7E5E /* SFSuccessResponse.h */,
+				63D9CD511E8C2C0F006F7E5E /* SFSuccessResponse.m */,
+				6368190E1E8EAB7C00474717 /* SFResponse.h */,
+				6368190F1E8EAB7C00474717 /* SFResponse.m */,
+				63D2E6F81E8FB175008E6580 /* SFAvaliableSlot.h */,
+				63D2E6F91E8FB175008E6580 /* SFAvaliableSlot.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		637BE8C31E8B6A0A00FF2CCC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				63E40D571E8F05E5008F0FED /* Cache */,
+				63D9CD681E8D3BB1006F7E5E /* Loder */,
+				63D9CD531E8C329A006F7E5E /* Reachability */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		637BE8C41E8B6A0A00FF2CCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63D9CD621E8D3076006F7E5E /* SFMenuTableViewCell.h */,
+				63D9CD631E8D3076006F7E5E /* SFMenuTableViewCell.m */,
+				63D9CD651E8D36F2006F7E5E /* SFHistoryTableViewCell.h */,
+				63D9CD661E8D36F2006F7E5E /* SFHistoryTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		637BE8C51E8B6A0A00FF2CCC /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				637BE8C61E8B6A7400FF2CCC /* SFLoginViewController.h */,
+				637BE8C71E8B6A7400FF2CCC /* SFLoginViewController.m */,
+				637BE8C91E8B6A9E00FF2CCC /* SFRegisterViewController.h */,
+				637BE8CA1E8B6A9E00FF2CCC /* SFRegisterViewController.m */,
+				637BE8CC1E8B6ABE00FF2CCC /* SFForgotPasswordViewController.h */,
+				637BE8CD1E8B6ABE00FF2CCC /* SFForgotPasswordViewController.m */,
+				637BE8CF1E8B6AD200FF2CCC /* SFAddCardViewController.h */,
+				637BE8D01E8B6AD200FF2CCC /* SFAddCardViewController.m */,
+				637BE8D21E8B6AE600FF2CCC /* SFMenuViewController.h */,
+				637BE8D31E8B6AE600FF2CCC /* SFMenuViewController.m */,
+				637BE8D51E8B6AF700FF2CCC /* SFHomeViewController.h */,
+				637BE8D61E8B6AF700FF2CCC /* SFHomeViewController.m */,
+				637BE8D81E8B6B1600FF2CCC /* SFPaymentViewController.h */,
+				637BE8D91E8B6B1600FF2CCC /* SFPaymentViewController.m */,
+				637BE8DB1E8B6B2700FF2CCC /* SFParkingMeterViewController.h */,
+				637BE8DC1E8B6B2700FF2CCC /* SFParkingMeterViewController.m */,
+				637BE8DE1E8B6B3D00FF2CCC /* SFHistoryViewController.h */,
+				637BE8DF1E8B6B3D00FF2CCC /* SFHistoryViewController.m */,
+				637BE8E11E8B6B4B00FF2CCC /* SFAboutViewController.h */,
+				637BE8E21E8B6B4B00FF2CCC /* SFAboutViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		637BE8EE1E8BD36C00FF2CCC /* Third Party Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				637BE8EF1E8BD36C00FF2CCC /* SWRevealViewController */,
+			);
+			path = "Third Party Frameworks";
+			sourceTree = "<group>";
+		};
+		637BE8EF1E8BD36C00FF2CCC /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				637BE8F01E8BD36C00FF2CCC /* SWRevealViewController.h */,
+				637BE8F11E8BD36C00FF2CCC /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		63D9CD451E8C2931006F7E5E /* Web Service Manager */ = {
+			isa = PBXGroup;
+			children = (
+				63D9CD461E8C2942006F7E5E /* SFWebServiceManager.h */,
+				63D9CD471E8C2942006F7E5E /* SFWebServiceManager.m */,
+			);
+			path = "Web Service Manager";
+			sourceTree = "<group>";
+		};
+		63D9CD531E8C329A006F7E5E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				63D9CD541E8C32AB006F7E5E /* Reachability.h */,
+				63D9CD551E8C32AB006F7E5E /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		63D9CD571E8CC658006F7E5E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				63E40D531E8F01B0008F0FED /* Parked.png */,
+				63E40D541E8F01B0008F0FED /* Parked@2x.png */,
+				63E40D4F1E8F011B008F0FED /* No Parking.png */,
+				63E40D501E8F011B008F0FED /* No Parking@2x.png */,
+				63E40D371E8EE610008F0FED /* Available slots.png */,
+				63E40D381E8EE610008F0FED /* Available slots@2x.png */,
+				63E40D391E8EE610008F0FED /* Avaliable balence.png */,
+				63E40D3A1E8EE610008F0FED /* Avaliable balence@2x.png */,
+				63E40D3B1E8EE610008F0FED /* Loyality points.png */,
+				63E40D3C1E8EE610008F0FED /* Loyality points@2x.png */,
+				63E40D3D1E8EE610008F0FED /* QR Code.png */,
+				63E40D3E1E8EE610008F0FED /* QR Code@2x.png */,
+				63E40D3F1E8EE610008F0FED /* Recharge.png */,
+				63E40D401E8EE610008F0FED /* Recharge@2x.png */,
+				63E40D411E8EE610008F0FED /* Wallet.png */,
+				63E40D421E8EE610008F0FED /* Wallet@2x.png */,
+				63E40D331E8EC266008F0FED /* Help-50 (1).png */,
+				639470701E8EBDA800397C96 /* AppIcon72x72%402x copy.png */,
+				639470601E8EBD5F00397C96 /* analytics.png */,
+				639470611E8EBD5F00397C96 /* car-parking.psd */,
+				639470621E8EBD5F00397C96 /* credit-card.png */,
+				639470631E8EBD5F00397C96 /* garage.png */,
+				639470641E8EBD5F00397C96 /* history.png */,
+				639470651E8EBD5F00397C96 /* house.psd */,
+				639470661E8EBD5F00397C96 /* shut-down.png */,
+				639470671E8EBD5F00397C96 /* user.png */,
+				63D9CD5E1E8D2F7A006F7E5E /* menu.png */,
+				63D9CD5F1E8D2F7A006F7E5E /* menu@2x.png */,
+				63D9CD581E8CC658006F7E5E /* Bg.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		63D9CD681E8D3BB1006F7E5E /* Loder */ = {
+			isa = PBXGroup;
+			children = (
+				63D9CD691E8D3C1D006F7E5E /* SFActivityIndicator.h */,
+				63D9CD6A1E8D3C1E006F7E5E /* SFActivityIndicator.m */,
+			);
+			path = Loder;
+			sourceTree = "<group>";
+		};
+		63E40D571E8F05E5008F0FED /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				63E40D581E8F05FF008F0FED /* SFCache.h */,
+				63E40D591E8F05FF008F0FED /* SFCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		CD90510A19B573C250647E47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63E40D351E8ECD7D008F0FED /* MessageUI.framework */,
+				26E564C15434DE880A7EAA35 /* libPods-Smart Parking.a */,
+				C474ED51ED55D3DED962B02D /* libPods-Smart ParkingTests.a */,
+				978CEB2C82E706316B116084 /* libPods-Smart ParkingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637BE88A1E8B620200FF2CCC /* Smart Parking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637BE8B81E8B620200FF2CCC /* Build configuration list for PBXNativeTarget "Smart Parking" */;
+			buildPhases = (
+				5BBAD46701F98DA84DEF2AA3 /* [CP] Check Pods Manifest.lock */,
+				637BE8871E8B620200FF2CCC /* Sources */,
+				637BE8881E8B620200FF2CCC /* Frameworks */,
+				637BE8891E8B620200FF2CCC /* Resources */,
+				BCACEBADE5226B69940F1E91 /* [CP] Embed Pods Frameworks */,
+				D573C0DB72F4A8ECFB8CF9E5 /* [CP] Copy Pods Resources */,
+				63E40D691E8F266B008F0FED /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Parking";
+			productName = "Smart Parking";
+			productReference = 637BE88B1E8B620200FF2CCC /* Smart Parking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		637BE8A31E8B620200FF2CCC /* Smart ParkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637BE8BB1E8B620200FF2CCC /* Build configuration list for PBXNativeTarget "Smart ParkingTests" */;
+			buildPhases = (
+				05604109407F9C524C60750D /* [CP] Check Pods Manifest.lock */,
+				637BE8A01E8B620200FF2CCC /* Sources */,
+				637BE8A11E8B620200FF2CCC /* Frameworks */,
+				637BE8A21E8B620200FF2CCC /* Resources */,
+				5203AEB7C8C174DE8B4CF97B /* [CP] Embed Pods Frameworks */,
+				A91782694FC6334AE309C465 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637BE8A61E8B620200FF2CCC /* PBXTargetDependency */,
+			);
+			name = "Smart ParkingTests";
+			productName = "Smart ParkingTests";
+			productReference = 637BE8A41E8B620200FF2CCC /* Smart ParkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		637BE8AE1E8B620200FF2CCC /* Smart ParkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637BE8BE1E8B620200FF2CCC /* Build configuration list for PBXNativeTarget "Smart ParkingUITests" */;
+			buildPhases = (
+				7207877B41E5A7F16DF1B905 /* [CP] Check Pods Manifest.lock */,
+				637BE8AB1E8B620200FF2CCC /* Sources */,
+				637BE8AC1E8B620200FF2CCC /* Frameworks */,
+				637BE8AD1E8B620200FF2CCC /* Resources */,
+				627D6DBA207CF57C966F756B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637BE8B11E8B620200FF2CCC /* PBXTargetDependency */,
+			);
+			name = "Smart ParkingUITests";
+			productName = "Smart ParkingUITests";
+			productReference = 637BE8AF1E8B620200FF2CCC /* Smart ParkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637BE8831E8B620200FF2CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Aspire Syatems";
+				TargetAttributes = {
+					637BE88A1E8B620200FF2CCC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S45JLX7U95;
+						ProvisioningStyle = Automatic;
+					};
+					637BE8A31E8B620200FF2CCC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S45JLX7U95;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 637BE88A1E8B620200FF2CCC;
+					};
+					637BE8AE1E8B620200FF2CCC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S45JLX7U95;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 637BE88A1E8B620200FF2CCC;
+					};
+				};
+			};
+			buildConfigurationList = 637BE8861E8B620200FF2CCC /* Build configuration list for PBXProject "Smart Parking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637BE8821E8B620200FF2CCC;
+			productRefGroup = 637BE88C1E8B620200FF2CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637BE88A1E8B620200FF2CCC /* Smart Parking */,
+				637BE8A31E8B620200FF2CCC /* Smart ParkingTests */,
+				637BE8AE1E8B620200FF2CCC /* Smart ParkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637BE8891E8B620200FF2CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639470681E8EBD5F00397C96 /* analytics.png in Resources */,
+				63E40D561E8F01B0008F0FED /* Parked@2x.png in Resources */,
+				637BE89E1E8B620200FF2CCC /* LaunchScreen.storyboard in Resources */,
+				63E40D431E8EE610008F0FED /* Available slots.png in Resources */,
+				6394706E1E8EBD5F00397C96 /* shut-down.png in Resources */,
+				6394706B1E8EBD5F00397C96 /* garage.png in Resources */,
+				63E40D551E8F01B0008F0FED /* Parked.png in Resources */,
+				63E40D511E8F011B008F0FED /* No Parking.png in Resources */,
+				6394706F1E8EBD5F00397C96 /* user.png in Resources */,
+				63E40D491E8EE610008F0FED /* QR Code.png in Resources */,
+				63E40D4C1E8EE610008F0FED /* Recharge@2x.png in Resources */,
+				6394706C1E8EBD5F00397C96 /* history.png in Resources */,
+				63D9CD611E8D2F7A006F7E5E /* menu@2x.png in Resources */,
+				63E40D4A1E8EE610008F0FED /* QR Code@2x.png in Resources */,
+				63E40D4E1E8EE610008F0FED /* Wallet@2x.png in Resources */,
+				63E40D6B1E8F5A4B008F0FED /* Images.xcassets in Resources */,
+				63E40D461E8EE610008F0FED /* Avaliable balence@2x.png in Resources */,
+				639470711E8EBDA800397C96 /* AppIcon72x72%402x copy.png in Resources */,
+				63E40D4B1E8EE610008F0FED /* Recharge.png in Resources */,
+				63E40D451E8EE610008F0FED /* Avaliable balence.png in Resources */,
+				63E40D521E8F011B008F0FED /* No Parking@2x.png in Resources */,
+				639470691E8EBD5F00397C96 /* car-parking.psd in Resources */,
+				63D9CD601E8D2F7A006F7E5E /* menu.png in Resources */,
+				63E40D4D1E8EE610008F0FED /* Wallet.png in Resources */,
+				63E40D471E8EE610008F0FED /* Loyality points.png in Resources */,
+				63E40D441E8EE610008F0FED /* Available slots@2x.png in Resources */,
+				63E40D481E8EE610008F0FED /* Loyality points@2x.png in Resources */,
+				637BE89B1E8B620200FF2CCC /* Assets.xcassets in Resources */,
+				63D9CD591E8CC658006F7E5E /* Bg.png in Resources */,
+				6394706A1E8EBD5F00397C96 /* credit-card.png in Resources */,
+				6394706D1E8EBD5F00397C96 /* house.psd in Resources */,
+				637BE8991E8B620200FF2CCC /* Main.storyboard in Resources */,
+				63E40D341E8EC266008F0FED /* Help-50 (1).png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637BE8A21E8B620200FF2CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637BE8AD1E8B620200FF2CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05604109407F9C524C60750D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5203AEB7C8C174DE8B4CF97B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart ParkingTests/Pods-Smart ParkingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BBAD46701F98DA84DEF2AA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		627D6DBA207CF57C966F756B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart ParkingUITests/Pods-Smart ParkingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7207877B41E5A7F16DF1B905 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A91782694FC6334AE309C465 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart ParkingTests/Pods-Smart ParkingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCACEBADE5226B69940F1E91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart Parking/Pods-Smart Parking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D573C0DB72F4A8ECFB8CF9E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart Parking/Pods-Smart Parking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637BE8871E8B620200FF2CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637BE8961E8B620200FF2CCC /* ViewController.m in Sources */,
+				637BE8D71E8B6AF700FF2CCC /* SFHomeViewController.m in Sources */,
+				637BE8D11E8B6AD200FF2CCC /* SFAddCardViewController.m in Sources */,
+				63D9CD441E8C2699006F7E5E /* SFHistory.m in Sources */,
+				63D9CD561E8C32AB006F7E5E /* Reachability.m in Sources */,
+				63D9CD3B1E8C266C006F7E5E /* SFCardDetail.m in Sources */,
+				63D9CD4B1E8C29C3006F7E5E /* SFError.m in Sources */,
+				637BE8931E8B620200FF2CCC /* AppDelegate.m in Sources */,
+				63D2E6FA1E8FB175008E6580 /* SFAvaliableSlot.m in Sources */,
+				63D9CD521E8C2C0F006F7E5E /* SFSuccessResponse.m in Sources */,
+				63E40D5A1E8F05FF008F0FED /* SFCache.m in Sources */,
+				634FD67B1E8E9A0000F98416 /* SFParser.m in Sources */,
+				63D9CD671E8D36F2006F7E5E /* SFHistoryTableViewCell.m in Sources */,
+				63D9CD411E8C268B006F7E5E /* SFParkingMeter.m in Sources */,
+				63D9CD381E8C2658006F7E5E /* SFForgotPassword.m in Sources */,
+				637BE8E61E8B6B8900FF2CCC /* SFLogin.m in Sources */,
+				637BE8901E8B620200FF2CCC /* main.m in Sources */,
+				637BE8E31E8B6B4B00FF2CCC /* SFAboutViewController.m in Sources */,
+				637BE8CB1E8B6A9E00FF2CCC /* SFRegisterViewController.m in Sources */,
+				637BE8E01E8B6B3D00FF2CCC /* SFHistoryViewController.m in Sources */,
+				637BE8DA1E8B6B1600FF2CCC /* SFPaymentViewController.m in Sources */,
+				637BE8CE1E8B6ABE00FF2CCC /* SFForgotPasswordViewController.m in Sources */,
+				637BE8F21E8BD36C00FF2CCC /* SWRevealViewController.m in Sources */,
+				637BE8D41E8B6AE600FF2CCC /* SFMenuViewController.m in Sources */,
+				637BE8DD1E8B6B2700FF2CCC /* SFParkingMeterViewController.m in Sources */,
+				63D9CD3E1E8C267D006F7E5E /* SFQRCode.m in Sources */,
+				63D9CD6B1E8D3C1E006F7E5E /* SFActivityIndicator.m in Sources */,
+				636819101E8EAB7C00474717 /* SFResponse.m in Sources */,
+				63D9CD481E8C2942006F7E5E /* SFWebServiceManager.m in Sources */,
+				637BE8E91E8B6B9C00FF2CCC /* SFRegister.m in Sources */,
+				637BE8C81E8B6A7400FF2CCC /* SFLoginViewController.m in Sources */,
+				63D9CD641E8D3076006F7E5E /* SFMenuTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637BE8A01E8B620200FF2CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637BE8A91E8B620200FF2CCC /* Smart_ParkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637BE8AB1E8B620200FF2CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637BE8B41E8B620200FF2CCC /* Smart_ParkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		637BE8A61E8B620200FF2CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637BE88A1E8B620200FF2CCC /* Smart Parking */;
+			targetProxy = 637BE8A51E8B620200FF2CCC /* PBXContainerItemProxy */;
+		};
+		637BE8B11E8B620200FF2CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637BE88A1E8B620200FF2CCC /* Smart Parking */;
+			targetProxy = 637BE8B01E8B620200FF2CCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		637BE8971E8B620200FF2CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637BE8981E8B620200FF2CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		637BE89C1E8B620200FF2CCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637BE89D1E8B620200FF2CCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		637BE8B61E8B620200FF2CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		637BE8B71E8B620200FF2CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637BE8B91E8B620200FF2CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706AA57077A4E29A2A2C8745 /* Pods-Smart Parking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Smart\\ Parking/Third\\ Party\\ Frameworks/lib",
+				);
+				INFOPLIST_FILE = "Smart Parking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspiresys.Smart-Parking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		637BE8BA1E8B620200FF2CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CCEC1A70AE8BF1892BCB5D /* Pods-Smart Parking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Smart\\ Parking/Third\\ Party\\ Frameworks/lib",
+				);
+				INFOPLIST_FILE = "Smart Parking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspiresys.Smart-Parking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		637BE8BC1E8B620200FF2CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B7D304EB9D979CA3EF80EC /* Pods-Smart ParkingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = "Smart ParkingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspiresys.Smart-ParkingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Parking.app/Smart Parking";
+			};
+			name = Debug;
+		};
+		637BE8BD1E8B620200FF2CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B8094D3A012D8C60023158 /* Pods-Smart ParkingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = "Smart ParkingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspiresys.Smart-ParkingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Parking.app/Smart Parking";
+			};
+			name = Release;
+		};
+		637BE8BF1E8B620200FF2CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF86B12A8EE769889F84529A /* Pods-Smart ParkingUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = "Smart ParkingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspiresys.Smart-ParkingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Smart Parking";
+			};
+			name = Debug;
+		};
+		637BE8C01E8B620200FF2CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5D1291D549BFE2FF398322 /* Pods-Smart ParkingUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = "Smart ParkingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspiresys.Smart-ParkingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Smart Parking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637BE8861E8B620200FF2CCC /* Build configuration list for PBXProject "Smart Parking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637BE8B61E8B620200FF2CCC /* Debug */,
+				637BE8B71E8B620200FF2CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637BE8B81E8B620200FF2CCC /* Build configuration list for PBXNativeTarget "Smart Parking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637BE8B91E8B620200FF2CCC /* Debug */,
+				637BE8BA1E8B620200FF2CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637BE8BB1E8B620200FF2CCC /* Build configuration list for PBXNativeTarget "Smart ParkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637BE8BC1E8B620200FF2CCC /* Debug */,
+				637BE8BD1E8B620200FF2CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637BE8BE1E8B620200FF2CCC /* Build configuration list for PBXNativeTarget "Smart ParkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637BE8BF1E8B620200FF2CCC /* Debug */,
+				637BE8C01E8B620200FF2CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637BE8831E8B620200FF2CCC /* Project object */;
+}

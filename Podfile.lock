@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CardIO (5.4.1)
+  - DGActivityIndicatorView (2.1.1)
+  - JDFlipNumberView (2.2.3):
+    - JDFlipNumberView/Core (= 2.2.3)
+    - JDFlipNumberView/DefaultImageBundle (= 2.2.3)
+    - JDFlipNumberView/FlipImageView (= 2.2.3)
+  - JDFlipNumberView/Core (2.2.3)
+  - JDFlipNumberView/DefaultImageBundle (2.2.3):
+    - JDFlipNumberView/Core
+  - JDFlipNumberView/FlipImageView (2.2.3)
+  - JVFloatLabeledTextField (1.1.1)
+  - QRCodeReaderViewController (4.0.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - CardIO
+  - DGActivityIndicatorView
+  - JDFlipNumberView
+  - JVFloatLabeledTextField
+  - QRCodeReaderViewController (~> 4.0.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  JDFlipNumberView: e4672404447e7240d26d22f8c850660cd44eef69
+  JVFloatLabeledTextField: 0e5524b097f102036214dd8279edc8ecf08b5e18
+  QRCodeReaderViewController: e8f27d035b3e72b1d4b1c61ff66458287e3be0ff
+
+PODFILE CHECKSUM: 34dcf4f95f034a8be6dd095e111751b621843ba8
+
+COCOAPODS: 1.0.1
